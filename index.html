@@ -11,7 +11,7 @@
 	<main>
 <!--Header with navbar-->		
 		<header class="header-container">
-			<nav>
+			<nav id="navbar">
 				<ul>
 					<li><a class="navbar-about" href="#welcome-section">About</a></li>
 					<li><a class="navbar-work" href="#projects">Work</a></li>
@@ -21,34 +21,34 @@
 		</header>
 <!--About Section-->
 		<section id="welcome-section">
-			<h1>Hi, my name is Stacy Riley and I am a web developer in New Jersey.</h1>
+			<h1>Hi, I'm Stacy Riley. <br>A web developer in New Jersey.</h1>
 		</section>
 <!--Work/Project section-->
 		<section id="projects">
 			<h2>Some Projects of Mine</h2>
 				<div class="project-container">
-					<div class="project" id="project-1">
-						<img class="portrait" src="img/freeCodeCamp-survey-form.jpg">
-							<a href="https://stacy-riley.github.io/fcc-survey-form/" target="_blank">Survey Form</a>
+					<div class="project-tile project" id="project-1">
+						<img class="portrait" src="img/freeCodeCamp-survey-form.jpg" alt="Survey Form">
+							<a id="profile-link" href="https://stacy-riley.github.io/fcc-survey-form/" target="_blank">Survey Form</a>
 					</div>
 					<div class="project" id="project-2">
-						<img class="landscape" src="img/jubilee-austen-portfolio.jpg">
+						<img class="landscape" src="img/jubilee-austen-portfolio.jpg" alt="Portfolio Page">
 							<a href="https://stacy-riley.github.io/Jubilee-Austen/" target="_blank">Portfolio Page</a>
 					</div>
 					<div class="project" id="project-3">
-						<img class="landscape" src="img/rogue-pickings.jpg">
+						<img class="landscape" src="img/rogue-pickings.jpg" alt="Product Landing Page">
 							<a href="https://stacy-riley.github.io/Rogue-Pickings/" target="_blank">Product Landing Page</a>
 					</div>
 					<div class="project" id="project-4">
-						<img src="img/fcc-technical-documentation-page.jpg">
+						<img src="img/fcc-technical-documentation-page.jpg" alt="Technical Page">
 							<a href="https://stacy-riley.github.io/fcc-technical-documentation-page/" target="_blank">Technical Page</a>
 					</div>
 					<div class="project" id="project-5">
-						<img src="img/original-trombones.jpg">
+						<img src="img/original-trombones.jpg" alt="Product Landing Page">
 							<a href="https://stacy-riley.github.io/fcc-product-landing-page/" target="_blank">Product Landing Page</a>
 					</div>
 					<div class="project" id="project-6">
-						<img src="img/tribute-page-dr-norman-borlaug.jpg">
+						<img src="img/tribute-page-dr-norman-borlaug.jpg" alt="Tribute Page">
 							<a href="https://stacy-riley.github.io/fcc-tribute-page/" target="_blank">Tribute Page</a>
 					</div>
 				</div>
@@ -56,21 +56,29 @@
 <!--Contact section-->
 		<section id="contact">
 			<h2>Let's work together...</h2>
-				<p>Contact me below to talk about your next project.</p>
-<!--Email-->
-					<a id="email-icon-placement" href="mailto:Info@StacyRiley.dev">
-						<img src="img/icon-envelope2.png" alt="envelope"/>Send me an email</a>
+				<h3>Contact me below to talk about your next project.</h3>
+<!--Email-->	<div class="contact-container">
+					<div class="contact contact-item-1">
+						<a id="email-icon-placement" href="mailto:Info@StacyRiley.dev">
+						<img src="img/icon-envelope2.png" alt="envelope"/>  info@StacyRiley.dev</a>
 					<!--<a id="email-address" href="mailto:Info@StacyRiley.dev">Stacy Riley</a>-->
-<!--Twitter-->					
-					<a id="icon-twitter" href="https://twitter.com/AskStacyRiley">
-						<img src="img/icon-twitter2.png" alt="twitter icon"/>Twitter</a>
-<!--Github-->
-					<a id="icon-github" href="https://github.com/Stacy-Riley">
-						<img src="img/icon-github2.png" alt="github icon" />GitHub</a>
-<!--LinkedIn-->
-					<a id="icon-linkedin" href="https://www.linkedin.com/in/stacy-riley-93411948/" >
-						<img src="img/icon-linkedin2.png" alt="linkedin icon" />LinkedIn</a>
+					</div>
+<!--Twitter-->		<div class="contact contact-item-2">		
+						<a id="icon-twitter" href="https://twitter.com/AskStacyRiley">
+						<img src="img/icon-twitter2.png" alt="twitter icon"/></a>
+					</div>
+<!--Github-->		<div class="contact contact-item-3">	
+						<a id="icon-github" href="https://github.com/Stacy-Riley">
+						<img src="img/icon-github2.png" alt="github icon" /></a>
+					</div>					
+<!--LinkedIn-->		<div class="contact contact-item-4">
+						<a id="icon-linkedin" href="https://www.linkedin.com/in/stacy-riley-93411948/" >  
+						<img src="img/icon-linkedin2.png" alt="linkedin icon" /></a>
+					</div>
+				</div>
+				<p id="copyright"><span>&copy; Copyright Stacy Riley 2020</span></p>
 		</section>
+
 	</main>
 </body>
 </html>
